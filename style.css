@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f5f5f5;
+    color:black;
+}
+ .logo2{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+h2{
+    color: rgb(18, 122, 18);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+
+.text{
+    padding-top:60px;
+}
+.home{
+    color: rgb(24, 173, 24);
+}
+nav{
+    display: flex;
+    /* gap: 25px; */
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+    font-weight: 500;
+}
+.btn1{
+    padding: 10px 25px;
+    color: rgb(15, 136, 15);
+    background-color: white;
+    border-radius: 5px ;
+}
+.btn2{
+    padding: 10px 25px;
+    border: none;
+    background-color: rgb(26, 107, 26);
+    color: white;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 48px;
+
+}
+
+.text-part{
+    /* display: flex; */
+    background-color: rgb(10, 68, 10);
+    color: white;
+    padding-right: 50px;
+    padding-top: 20px;padding-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.body-part{
+    display: flex;
+    align-items: center;
+
+}
+.image{
+    width: 300px;
+}
+.image3{
+    /* width: 200px;
+    height: 450px; */
+    margin-left: 5px;
+}
+.card1{
+    width: 450px;
+}
+
+.security{
+    display: flex;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.line{
+    width: 3px;
+    height: 140px;
+    background-color: gray;
+    margin: 0 20px;
+}
+
+.safe{
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: white;
+    width: 300px;
+    height: 320px;
+    color: black;
+    border-radius: 5px;
+    align-content: center;
+    font-size: 24px;
+}
+.fa-shield-halved{
+    font-size: 40px;
+    color: green
+}
+.fa-calendar-days{
+    font-size: 40px;
+}
+.fa-lock{
+    font-size: 20px;
+}
+#fa-shield-halved{
+    font-size: 40px;
+    color: white;
+}
+.btn4{
+    padding: 10px 25px;
+    border: none;
+    background-color: rgb(24, 223, 24);
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.btn5{
+    padding: 10px 25px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.note{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.works{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    font-size: 20px;
+}
+.fa-person-circle-plus{
+    font-size: 40px;
+    padding-left: 30px;
+     color: rgb(15, 119, 15);
+}
+.fa-id-card{
+  font-size: 40px;  
+   color: rgb(15, 119, 15);
+   padding-left: 30px;
+}
+.fa-vote-yea{
+    font-size: 40px;
+     color: rgb(15, 119, 15);
+     padding-left: 30px;
+}
+.fa-circle-check{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(15, 119, 15);
+}
+.fa-calendar-days{
+    color: rgb(15, 119, 15);
+    padding-left: 45px;
+
+}
+.fa-arrow-right-long{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+h6{
+    font-size: 19px;
+    padding-bottom: 10px;
+}
+.fa-stack-1x{
+    color: rgb(24, 173, 24);
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-size: 22px;
+}
+
+.fa-user-lock{
+    font-size: 40px;
+    color: rgb(15, 119, 15);
+    padding-left: 30px;
+}
+
+.fa-eye{
+    font-size: 40px;
+    color: rgb(15, 119, 15);
+    padding-left: 30px;
+}
+
+.image4{
+    width: 40%px;
+    height: 450px;
+    border-radius: 10px;
+}
+.card3{
+   display: grid;
+    grid-template-columns: 300px 300px ;
+    width: 95%;
+    box-shadow: 5px 2px 2px rgba(0,0,0,0.3);
+    margin-left: 40px;
+    background-color: whitesmoke;
+}
+#check1{
+    color: green;
+}
+#check{
+    color: green;
+}
+
+.card5{
+    padding-left: 200px;
+    padding-top: 30px;
+    width: 450px;
+}
+.card4{
+    padding-top: 30px;
+    width: 450px;
+}
+
+#btn7{
+    width: 450px;
+    height: 45px;
+    align-items: center;
+    background-color: rgb(33, 119, 33);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 15px;
+}
+.btn8{
+    width: 450px;
+    height: 45px;
+    align-items: center;
+    background-color: rgb(33, 119, 33);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding-top: 10px;
+}
+input{
+    width: 450px;
+    height: 45px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+ }
+.container{
+    display: flex;
+    gap: 20px;
+    width: 97%;
+}
+#coma{
+    width:450px;
+    padding-left: 20px;
+}
+#com{
+     width:450px;
+}
+#cona{
+    width:380px;
+}
+/* */
+/* .grid-container{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: 70%;
+} */
+/* #voting{
+    width: 50%;
+}
+#verify{
+    width: 50%; */
+/* .key{
+    padding-left: 30px;
+}
+
+.calender{
+    padding-left: 30px;
+} */
