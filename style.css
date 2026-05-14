@@ -220,6 +220,10 @@ h6{
     height: 450px;
     border-radius: 10px;
 }
+
+
+
+
 .card3{
    display: grid;
     grid-template-columns: 300px 300px ;
